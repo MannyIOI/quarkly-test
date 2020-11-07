@@ -137,9 +137,9 @@ export default (() => {
 				md-margin="0px 16px 0px 16px"
 				min-width="auto"
 			/>
-			<Stack>
+			<Stack margin="-16px -16px -16px -16px">
 				{"    "}
-				<StackItem width="100%" display="flex">
+				<StackItem width="100%" display="flex" padding="0 0 0 0">
 					<Override
 						slot="StackItemContent"
 						align-items="center"
